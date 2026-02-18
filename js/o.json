@@ -1,0 +1,41 @@
+{
+    "分类":[    
+        {"type_name":"电影","type_id":"1"},
+        {"type_name":"电视剧","type_id":"2"},
+        {"type_name":"戏曲","type_id":"3"}
+    ],   
+    "列表":{
+        "1":[
+			{"标题":"武林志","封面":["https://bkimg.cdn.bcebos.com/pic/f2deb48f8c5494eef01f22914eacf7fe9925bd31d0b8"],"播放":["$bili@BV1L5UjBZEhU"]},
+			{"标题":"少林寺","封面":["https://img.ffzy888.com/upload/vod/20221201-1/4fff4b83f5222f629dd478a91627007f.jpg"],"播放":["$bili@BV1WM5KzGEfG"]},
+			{"标题":"画皮","封面":["https://pic.wujinpp.com/upload/vod/20210821-1/6a9d496f6b0b34c64ccd4ee52dd51d9a.jpg"],"播放":["$bili@BV1ky4y1E7uF"]},
+			{"标题":"赛虎","封面":["https://i02piccdn.sogoucdn.com/27d907e4ae041966"],"播放":["https://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/34505162ca0848af9e23d33ed4018088/1200.m3u8"]},
+			{"标题":"武当","封面":["http://dingyue.ws.126.net/2023/0225/831bc427j00rqn6sl0058d000w8018wp.jpg"],"播放":["$bili@BV14p411R7Dx"]},
+			{"标题":"举起手来","封面":["http://dingyue.ws.126.net/2024/0723/a7e71f08j00sh2li0002vd000id00p0g.jpg"],"播放":["$bili@BV1sWBWBBE88"]}		
+        ],
+        "2":[
+			{"标题":"西游记","封面":["https://p3.itc.cn/images01/20200722/f79ebd0d64cf451d8da4fa0076a00c81.jpeg"],"播放":["$show@./data/电视剧.txt@西游记"]},
+			{"标题":"西游记后传","封面":["https://pic.baike.soso.com/p/20130522/20130522133954-1321905615.jpg"],"播放":["$show@./data/电视剧.txt@西游记后传"]},
+			{"标题":"大侠霍元甲","封面":["https://img.ffzy888.com/upload/vod/20230222-1/08cc6459dd00261a92e6389fece9bd95.jpg"],"播放":["$show@./data/电视剧.txt@大侠霍元甲"]},
+			{"标题":"陈真","封面":["https://img.mp.sohu.com/upload/20170625/9bce8ad92e304b4686d1f8c41ef5378e_th.png"],"播放":["$show@./data/电视剧.txt@陈真"]},
+			{"标题":"霍东阁","封面":["https://img.ffzy888.com/upload/vod/20230614-1/ad914f296f2a2bbe77591e0e4895fc03.jpg"],"播放":["$show@./data/电视剧.txt@霍东阁"]},
+			{"标题":"水浒传","封面":["https://i04piccdn.sogoucdn.com/1dcadffd9979ccde"],"播放":["$show@./data/电视剧.txt@水浒传"]},
+			{"标题":"封神榜","封面":["https://p3.ifengimg.com/2019_18/E13DCD53A330B1A2F59E4E980D47DC45A7F87CBC_w450_h600.jpg"],"播放":["$show@./data/电视剧.txt@封神榜"]},
+			{"标题":"还珠格格1","封面":["https://www.taopianimage1.com:43333/7f03d2897d82.jpeg"],"播放":["$show@./data/电视剧.txt@还珠格格1"]},
+			{"标题":"还珠格格2","封面":["https://pic.bdkzh.com/upload/vod/20220302-7/227100abae006f853c2b8adcf07d7230.jpg"],"播放":["$show@./data/电视剧.txt@还珠格格2"]},
+			{"标题":"还珠格格3","封面":["https://pic.bdkzh.com/upload/vod/20220302-7/2d654aaeaaf091600d95e0979b0d8faa.jpg"],"播放":["$show@./data/电视剧.txt@还珠格格3"]},
+			{"标题":"少林寺传奇1","封面":["https://img.ffzy888.com/upload/vod/20221130-1/3714204247b68763043e0a7546bbdb62.jpg"],"播放":["$show@./data/电视剧.txt@少林寺传奇1"]},
+			{"标题":"少林寺传奇2","封面":["https://img.ffzy888.com/upload/vod/20221130-1/e10bcb741cc24276cca9ceeddad6db7d.jpg"],"播放":["$show@./data/电视剧.txt@少林寺传奇2"]},
+			{"标题":"新白娘子传奇","封面":["https://img.ffzy888.com/upload/vod/20221206-1/a190c19bd5cbe2df250de9b4e9c762bf.jpg"],"播放":["$show@./data/电视剧.txt@新白娘子传奇"]},
+			{"标题":"抗日奇侠","封面":["https://img.ffzy888.com/upload/vod/20240317-1/fe66fa7f7835e891800a6002f5e8b004.jpg"],"播放":["$show@./data/电视剧.txt@抗日奇侠"]},
+			{"标题":"石敢当之雄峙天东 ","封面":["https://img.ffzy888.com/upload/vod/20221216-1/3994b2a899a2dc9ad620a61ac1d8c977.jpg"],"播放":["$show@./data/电视剧.txt@石敢当之雄峙天东 "]},
+			{"标题":"飞虎队","封面":["https://img.ffzy888.com/upload/vod/20221218-1/82cbac05b65a7fb4ed38832a52c2d2ae.jpg"],"播放":["$show@./data/电视剧.txt@飞虎队"]}
+        ],
+        "3":[
+			{"标题":"七品芝麻官","封面":["https://pic2.zhimg.com/50/v2-fb569d2ffa8de4214afaf6e5025a7d7d_720w.jpg"],"播放":["$bili@BV1yJ411p7hq"]},
+			{"标题":"小白菜","封面":["https://i0.hdslb.com/bfs/archive/09d907e42099f3a999699008962f61f1d3082df1.png"],"播放":["$bili@BV12J411s76t"]},
+			{"标题":"小姑贤","封面":["https://i0.hdslb.com/bfs/archive/2da9d26910c0a7af6cfa7127790e284d3a08b272.jpg"],"播放":["$bili@BV1t84y167a6"]},
+			{"标题":"卷席筒","封面":["https://i0.hdslb.com/bfs/archive/308df610d348e0a797107ab8510cca3cae89a503.jpg"],"播放":["$bili@BV1U7wEecEsu"]}
+        ]
+    }
+}
