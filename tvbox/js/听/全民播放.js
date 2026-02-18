@@ -1,0 +1,25 @@
+var rule = {
+    title:'全民播放',
+    host:'http://newapi.if4.ttyt.cc',
+    url:'/music/search?keywords=fyclass&page=fypage',
+    homeUrl:'/music/search?keywords=车载&page=',
+    searchUrl:'/music/search?keywords=**&page=fypage',
+    detailUrl:'http://newapi.if4.ttyt.cc/music/pull?jmUrl=fyid',
+    searchable:1,
+    quickSearch:1,
+    class_name:'越南鼓&Rmx&重低音&电音&电子&DJ&激情&车载&抖音&国语&粤语&英文&现场&节奏&怀旧&发烧&舞曲&古典',
+    class_url:'越南鼓&Rmx&重低音&电音&电子&DJ&激情&车载&抖音&国语&粤语&英文&现场&节奏&怀旧&发烧&舞曲&古典',
+    headers:{
+        'User-Agent': 'okhttp/3.12.13',
+        'umId': 'aibbd83c1129a4f13b54c1941f06175b23',
+        'channel': 'Umeng',
+        'appv': '12'
+    },
+    timeout:5000,
+    limit:6,
+    double:false,
+    推荐:'*',
+    一级:'json:data;title;covImgPath;style;id',        
+    二级:`js:let data=JSON.parse(request(input));VOD.vod_play_from='全民播放';VOD.vod_play_url='点击播放'+'$'+data.data;`,
+    搜索:'*',
+}

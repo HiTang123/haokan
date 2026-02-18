@@ -1,0 +1,345 @@
+{
+    "分类":[
+        {"type_name":"电视台","type_id":"1","land":1,"ratio":3},
+        {"type_name":"影视剧","type_id":"2"},
+        {"type_name":"播客","type_id":"3","land":1,"ratio":1}        
+    ],   
+    "列表":{
+        "1":[
+            {
+            "标题":"测试",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["测试$https://litchi-play-encrypted-site.jstv.com/live/jsws_live.m3u8?txSecret=55788f16408b20965d337f264084c495&txTime=67c820bc;{url:code,header:{'referer':'https://live.jstv.com'}}"],
+            "简介":["$js@=>input=atob('JTNDJTIxRE9DVFlQRSUyMGh0bWwlM0UlM0NodG1sJTIwbGFuZyUzRCUyMnpoLUNOJTIyJTNFJTNDaGVhZCUzRSUzQ21ldGElMjBjaGFyc2V0JTNEJTIyVVRGLTglMjIlMjAlMkYlM0UlM0NtZXRhJTIwaHR0cC1lcXVpdiUzRCUyMlgtVUEtQ29tcGF0aWJsZSUyMiUyMGNvbnRlbnQlM0QlMjJJRSUzRGVkZ2UlMjIlMjAlMkYlM0UlM0NtZXRhJTIwbmFtZSUzRCUyMnZpZXdwb3J0JTIyJTIwY29udGVudCUzRCUyMndpZHRoJTNEZGV2aWNlLXdpZHRoJTJDaW5pdGlhbC1zY2FsZSUzRDElMjIlMjAlMkYlM0UlM0N0aXRsZSUzRSUzQyUyRnRpdGxlJTNFJTNDc3R5bGUlM0UlMjBodG1sJTJDJTIwYm9keSUyMCU3QiUyMHBvc2l0aW9uJTNBJTIwcmVsYXRpdmUlM0IlMjB3aWR0aCUzQSUyMDEwMCUyNSUzQiUyMGhlaWdodCUzQSUyMDEwMCUyNSUzQiUyMG1hcmdpbiUzQSUyMDAlM0IlMjBwYWRkaW5nJTNBJTIwMCUzQiUyMG92ZXJmbG93JTNBJTIwaGlkZGVuJTNCJTIwJTdEJTIwLnlhYWJvbyUyMCU3QiUyMHBvc2l0aW9uJTNBJTIwZml4ZWQlM0IlMjB0b3AlM0ElMjAwJTNCJTIwbGVmdCUzQSUyMDAlM0IlMjB3aWR0aCUzQSUyMDEwMCUyNSUzQiUyMGhlaWdodCUzQSUyMDEwMCUyNSUzQiUyMHotaW5kZXglM0ElMjA5OTk5OTklM0IlMjBiYWNrZ3JvdW5kJTNBJTIwJTIzZmZmJTNCJTIwJTdEJTIwLnlhYWJvbyUyMGlmcmFtZSUyMCU3QiUyMHBvc2l0aW9uJTNBJTIwZml4ZWQlM0IlMjB0b3AlM0ElMjAwJTNCJTIwbGVmdCUzQSUyMDAlM0IlMjB3aWR0aCUzQSUyMDEwMCUyNSUzQiUyMGhlaWdodCUzQSUyMDEwMCUyNSUzQiUyMGJvcmRlciUzQSUyMG5vbmUlM0IlMjAlN0QlMjAlM0MlMkZzdHlsZSUzRSUzQyUyRmhlYWQlM0UlM0Nib2R5JTNFJTNDc2NyaXB0JTNFJTIwdmFyJTIwYXJyJTIwJTNEJTIwJTVCJTIwJTI3JTJGbGFiZWwlMkZpbmRleDElMjclMkMlMjAlMjclMkZsYWJlbCUyRmluZGV4MSUyNyUyQyUyMCUyNyUyRmxhYmVsJTJGaW5kZXgxJTI3JTIwJTVEJTNCJTIwdmFyJTIwX3NyYyUyMCUzRCUyMGFyciU1QiUyMHBhcnNlSW50JTI4TWF0aC5yYW5kb20lMjglMjklMjAlMkElMjBhcnIubGVuZ3RoJTI5JTIwJTVEJTNCJTIwJTI4ZnVuY3Rpb24lMjglMjklN0IlMjB2YXIlMjB5YWFib28lMjAlM0QlMjBkb2N1bWVudC5jcmVhdGVFbGVtZW50JTI4JTI3ZGl2JTI3JTI5JTNCJTIweWFhYm9vLnNldEF0dHJpYnV0ZSUyOCUyN2NsYXNzJTI3JTJDJTIwJTI3eWFhYm9vJTI3JTI5JTNCJTIwdmFyJTIwaWZyJTIwJTNEJTIwZG9jdW1lbnQuY3JlYXRlRWxlbWVudCUyOCUyN2lmcmFtZSUyNyUyOSUzQiUyMGlmci5zcmMlMjAlM0QlMjBfc3JjJTNCJTIwaWZyLmFsbG93RnVsbHNjcmVlbiUyMCUzRCUyMHRydWUlM0IlMjBpZnIuc3R5bGUubWF4SGVpZ2h0JTIwJTNEJTIwJTI3bm9uZSUyNyUzQiUyMHlhYWJvby5hcHBlbmRDaGlsZCUyOGlmciUyOSUzQiUyMGRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQlMjh5YWFib28lMjklM0IlMjAlN0QlMjklMjglMjklM0IlM0MlMkZzY3JpcHQlM0UlM0MlMkZib2R5JTNFJTNDJTJGaHRtbCUzRQ==')"]                       
+            },
+            {
+            "标题":"测试1",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let api=new WebSocket('wss://tcdn-ws.itouchtv.cn:3800/connect');VOD.vod_content=api.readyState"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"范明明IPV6@直播源",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["IPV6直播源$all@https://live.fanmingming.com/tv/m3u/ipv6.m3u"],
+            "简介":[""]                        
+            },
+            {
+            "标题":"河南",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let t=getUnix();let tv=JSON.parse(request('https://pubmod.hntv.tv/program/getAuth/live/class/program/11/',{headers:{'timestamp':t,'sign':sha256('6ca114a836ac7d73'+t)}}));let radio=pdfa(request('https://www.hntv.tv/radio/page/1/20'),'ul&&a:has(img)');VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=tv.map(it=>{return it.name+'-'+it.live+'$'+it.video_streams[0]}).join('#')+'$$$'+radio.map(it=>{return pdfh(it,'img&&alt')+'$'+pdfh(it,'a&&href')}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"焦作",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let jz=pdfa(request('http://m.jzrt.com/list-zhpd.html'),'body&&.cl:eq(3)&&a');VOD.vod_play_url=jz.map(it=>{return pdfh(it,'a&&Text')+'$'+pd(it,'a&&href','http://m.jzrt.com')}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"洛阳",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=JSON.parse(request('http://www.lytv.com.cn/api/broadcast/group?pid=0&type=video')).data.map(it=>{return it.name+'$'+it.id+`>>input=JSON.parse(request('http://www.lytv.com.cn/api/broadcast/index?broadcast_id='+code)).data[0].live_address<<`}).join('#')+'$$$'+JSON.parse(request('http://www.lytv.com.cn/api/broadcast/index?broadcast_id=7')).data.map(it=>{return it.title+'$'+it.live_address}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"济源",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>VOD.vod_play_url='济源综合$'+pdfh(request('http://www.jyrb.cn/content/202009/17/c_219930.html'),'video&&#source&&src')+'#孟州综合$http://live.dxhmt.cn:9081/tv/10883-1.m3u8'"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"河北",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>function play(json,n){let t=getUnix()+7200;let url='';if(n=='6'){url=json['liveAudio'][0]['formats'][0]['url']}else{url=json['liveVideo'][0]['formats'][0]['url']+'?t='+t+'&k='+md5(json['appCustomParams']['movie']['liveUri']+json['appCustomParams']['movie']['liveKey']+t)}return url;};function list(n){return JSON.parse(request('https://api.cmc.hebtv.com/scms/api/com/article/getArticleList?catalogId=3255'+n+'&siteId=1')).returnData.news};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=list('7').map(it=>{return it.title+'$'+play(it,'7')}).join('#')+'$$$'+list('6').map(it=>{return it.title+'$'+play(it,'6')}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"北京",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let bj=JSON.parse(pdfh(request('https://www.brtn.cn/btv/btvsy_index',{headers:{'User-Agent':'PC_UA'}}),'head&&script&&Html').replace(/\\s/g,'').match(/(?<=layoutData:).*?(?=,columnData)/g)[0]).modules[0].modules[0][0].data.news;VOD.vod_play_url=bj.map(it=>{return it.data.title+'$'+it.gid+`>>let t=getUnix();function getStreamUrl(str){return base64Decode(base64Decode(str.split('').reverse().join('')))};let data={from:'pc',id:code,type_id:'151',timestamp:t,sign:md5(code+'151'+t+'TtJSg@2g*￥K4PjUH').substr(0,8)};input=getStreamUrl(JSON.parse(request(buildUrl('https://pc.api.btime.com/video/play',data))).data.video_stream[0].stream_url)<<`}).join('#');"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"上海",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let zb={'东方卫视':'1','新闻综合':'2','外语频道':'3','第一财经':'5','纪实人文':'6','都市频道':'4','哈哈炫动':'9'};VOD.vod_play_url=Object.keys(zb).map(it=>{return it+'$'+zb[it]+`>>let key='MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDP5hzPUW5RFeE2xBT1ERB3hHZIVotn/qatWhgc1eZof09qKjElFN6Nma461ZAwGpX4aezKP8Adh4WJj4u2O54xCXDtwzKRqZO2oNZkuNmF2Va8kLgiEQAAcxYc8JgTN+uQQNpsep4n/o1sArTJooZIF17EtSqSgXDcJ7yDj5rc7wIDAQAB';let host='https://kapi.kankanews.com/content/pc/tv/program';let nonce=Math.random().toString(36).slice(-8);let time=getUnix();let sign=md5(md5('Api-Version=v1&channel_id='+code+'&date='+getYMD()+'&nonce='+nonce+'&platform=pc&timestamp='+time+'&version=2.15.0&28c8edde3d61a0411511d3b1866f0636'));let pc=JSON.parse(request(host+'s?channel_id='+code+'&date='+getYMD(),{headers:{'platform':'pc','version':'2.15.0','nonce':nonce,'timestamp':time,'Api-Version':'v1','sign':sign}})).result.programs;let cid=pc.filter(it=>{return time>it.start_time&&time<it.end_time})[0].id;let sign1=md5(md5('Api-Version=v1&channel_program_id='+cid+'&nonce='+nonce+'&platform=pc&timestamp='+time+'&version=2.15.0&28c8edde3d61a0411511d3b1866f0636'));let enurl=JSON.parse(request(host+'/detail?channel_program_id='+cid,{headers:{'m-uuid':'kYP5PuTZDUTnESjqfzIM4','platform':'pc','version':'2.15.0','nonce':nonce,'timestamp':time,'Api-Version':'v1','sign':sign1}})).result.channel_info.live_address;function decryptStreamUrl(e,k){var t='';var fe=f=>{return atob(f).split('').map((function(e){return ('0'+e.charCodeAt(0).toString(16)).slice(-2)})).join('').toUpperCase()};var he=h=>{var x=h.replace(/([0-9a-fA-F]{2}) ?/g,'0x￥1 ').replace(/ +￥/,'').split(' '),y=String.fromCharCode.apply(null,x);return btoa(y)};try{var r=fe(e),n=0;do{var o=r.slice(n,n+256);n+=256,t+=RSA.decode(he(o),k,{type:1})}while(n<r.length)}catch(e){}return t};input={url:decryptStreamUrl(enurl,key),header:{'referer':'https://live.kankanews.com/'}}<<`}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"浙江",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let t=getUnix();let uuid=generateUUID().replaceAll('-','');let key='CHWr9VybUeBZE1VB';let host='https://zwebl02.cztv.com';let gb={'1601':'88','1602':'95','1603':'996','1604':'107','1605':'93','1606':'968','1607':'1045','1608':'988'};function sign(m){return md5(`${m}-${t}-${uuid}-0-${key}`)};function zj(n){let plays=JSON.parse(request('https://p.cztv.com/api/paas/channel/'+n)).content.list.map(it=>{let a='';if(n=='tv'){a='/live/channel'+it.station_code.slice(1)+'1080P.m3u8'}else{a='/live/fm'+gb[it.station_code]+'128k.m3u8'};return it.name+'-'+it.station_playing+'$'+host+a+'?auth_key='+`${t}-${uuid}-0-${sign(a)}`}).join('#');return plays};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=zj('tv')+'$$$'+zj('radio');"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"杭州",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let hz={'综合频道':'16','西湖明珠':'17','杭州生活':'18','杭州影视':'21','青少·体育':'20','文化频道':'22'};VOD.vod_play_url=Object.keys(hz).map(it=>{return it+'$'+hz[it]+`>>input={url:JSON.parse(request('https://mapi.hoolo.tv/api/v1/channel_detail.php?channel_id='+code,{headers:{'referer':'https://tv.hoolo.tv/'}}))[0].m3u8,header:{'referer':'https://tv.hoolo.tv/'}}<<`}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"江苏",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let api='https://api-auth-lizhi.jstv.com/JwtAuth/GetWebToken',appSecretId='M2I5M2M0NTJiODUxNDMxYzhiM2EwNzY3ODlhYjFlMTQ=',appSecret='OWRkNGIwNDAwZjZlNGQ1NThmMmIzNDk3ZDczNGMyYjQ=',appId='M2I5M2M0NTJiODUxNDMxYzhiM2EwNzY3ODlhYjFlMTQ=';let i=getUnix();let b={platform:41,uuid:randomString(32),appId:atob(appId)};let n=e=>{for(var t=[255&e,(65280&e)>>8,(16711680&e)>>16,(4278190080&e)>>24],n=0;n<t.length;n++)t[n]=240&t[n]^240|1+(15&t[n])&15;return t[3]|t[2]<<8|t[1]<<16|t[0]<<24};let e=`${api}?AppID=${atob(appSecretId)}`;let l=md5(atob(appSecret)+e.split(getHome(e))[1]+Object.keys(b).sort().map(m=>{return m+b[m]}).join('')+i);let url=`${e}&TT=${n(i)}&Sign=${l}`;let token=JSON.parse(post(url,{headers:{'Content-Type':'application/json'},body:b})).data.accessToken;VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=JSON.parse(request('https://publish-lizhi.jstv.com/nav/8385',{headers:{'authorization':'Bearer '+token}})).data.articles.map(it=>{return it.extraJson.name+'-'+it.extraJson.playing+'$'+it.extraJson.url+`>>input={url:code,header:{'referer':'https://live.jstv.com/'}}<<`}).join('#')+'$$$'+pdfa(request('https://www.vojs.cn/'),'.top2&&ul&&a').map(it=>{return pdfh(it,'a&&title')+'$'+pd(it,'a&&href','https://www.vojs.cn')}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"安徽",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>function ah(o){let a,b,c;if(o=='zb'){a='0',b='0',c='1'}else{a='1',b='2',c='3'};return JSON.parse(request('https://mapi.ahtv.cn/api/open/ahtv/channel.php?appid=m2otdjzyuuu8bcccnq&appkey=5eab6b4e1969a8f9aef459699f0d9000&is_audio='+a+'&site_id='+b+'&category_id='+c,{headers:{'referer':'https://www.ahrtv.cn/'}})).map(it=>{return it.name+'$'+it.m3u8+`>>input={url:code,header:{'referer':'https://www.ahrtv.cn/'}}<<`}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=ah('zb')+'$$$'+ah('gb')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"陕西",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>function Undress(a,b,c){return CryptoJS.AES.decrypt({ciphertext:CryptoJS.enc.Base64.parse(c)},CryptoJS.enc.Utf8.parse(a),{iv:CryptoJS.enc.Utf8.parse(b),mode:CryptoJS.mode.CBC,padding:CryptoJS.pad.ZeroPadding}).toString(CryptoJS.enc.Utf8)};let js=request('http://toutiao.cnwest.com/static/v1/group/stream.js');let t=js.match(/(?<=\").*?(?=\")/g);function sx(o){return Object.values(JSON.parse(Undress(t[0].substring(0,16),t[1].substring(0,16),t[o].substring(16))).sxbc).map(it=>{return it.name+'$'+(it.m3u8==''?NO:it.m3u8)}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=sx(0)+'$$$'+sx(1)"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"湖北",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>function hb(o){return JSON.parse(request('https://app.cjyun.org.cn/video/player/streamlist?site_id=10008&live_type='+o)).data.map(it=>{return it.name+'$'+it.play_url+`>>input={url:code,header:{'referer':'https://app.cjyun.org.cn/'}}<<`}).join('#')}VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=hb('1')+'$$$'+hb('2');"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"江西",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let zb={'江西卫视':'tv_jxtv1.m3u8','都市频道':'tv_jxtv2.m3u8','经济生活频道':'tv_jxtv3_hd.m3u8','影视·旅游频道':'tv_jxtv4.m3u8','公共·农业频道':'tv_jxtv5.m3u8','少儿频道':'tv_jxtv6.m3u8','新闻频道':'tv_jxtv7.m3u8','移动电视':'tv_jxtv8.m3u8','陶瓷频道':'tv_taoci.m3u8','风尚购物':'tv_fsgw.m3u8'};let gb={'xw':'江西新闻广播-FM104.4','ds':'江西都市广播-FM106.5','yy':'江西音乐广播-FM103.4','jt':'江西交通广播-FM105.4','nc':'江西农村广播-FM98.5','ms':'江西民生广播-FM101.9','ly':'江西旅游广播-FM97.4','cj':'FM财经99.2江西慈善公益广播','gs':'江西故事广播-FM96.9'};let radio=JSON.parse(pdfh(request('https://www.jxntv.cn/live/radio/'),'head&&script:eq(3)&&Html').match(/(?<=radiochannels=)[\\s\\S]*.*?]/g)[0]);VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=Object.keys(zb).map(it=>{return it+'$'+zb[it]+`>>let t=getUnix();let et=randomString(8);let host='https://yun-live.jxtvcn.com.cn/live-jxtv/';function au(m){return md5(t+m+et+'uBaGLhm7z8f6eGjv^Ql@hZ')};let data=JSON.parse(post('https://cdnauth.jxgdw.com/liveauth/pc',{headers:{\"User-Agent\":\"PC_UA\",\"etag\":et,\"Authorization\":au(code)},body:JSON.stringify({\"t\":t,\"stream\":code,\"uuid\":\"0670740150fd\"})}));input=host+code+'?source=pc&t='+data.t+'&token='+data.token;<<`}).join('#')+'$$$'+radio.map(it=>{return gb[it.id]+'$'+it.url}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"山东",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let zb={'山东卫视':'24581','齐鲁频道':'24584','体育频道':'24587','生活频道':'24596','综艺频道':'24593','新闻频道':'24602','农科频道':'24599','文旅频道':'24590','少儿频道':'24605','居家购物':'30223'};let gb={'综合频道':'xinwen','经济频道':'jingji','文艺频道':'nvzhubo','生活频道':'shenghuo','交通频道':'jiaotong','乡村广播':'xiangcun','音乐频道':'yinyue','体育频道':'tiyu'};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=Object.keys(zb).map(it=>{return it+'$'+zb[it]+`>>let t=Date.now();let s=md5(code+t+'1qkhcc7og9zeftsu');let url= 'https://feiying.litenews.cn/api/v1/auth/exchange?t='+t+'&s='+s;let key='k5x99e1mswelc4vt',iv='0000000000000000';function en(t){return t?CryptoJS.AES.encrypt(t,CryptoJS.enc.Utf8.parse(key),{iv:CryptoJS.enc.Utf8.parse(iv),mode:CryptoJS.mode.CBC,padding:CryptoJS.pad.Pkcs7}).toString():''};function de(t){return CryptoJS.AES.decrypt(t,CryptoJS.enc.Utf8.parse(key),{iv:CryptoJS.enc.Utf8.parse(iv),mode:CryptoJS.mode.CBC,padding:CryptoJS.pad.Pkcs7}).toString(CryptoJS.enc.Utf8)};let x={};x.channelMark=code;let data=en(JSON.stringify(x));input={url:JSON.parse(de(post(url,{headers:{'Content-Type':'text/plain'},body:data}))).data,header:{'referer':'https://v.iqilu.com/'}}<<`}).join('#')+'$$$'+Object.keys(gb).map(it=>{return it+'$https://v.iqilu.com/radio/main/'+gb[it]}).join('#');"],
+            "简介":[""]                       
+            },          
+            {
+            "标题":"山西",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let unix=Date.now();let ss='/lsdream/336E7E6818120C00FA7E8129A9999A10/info.json';let o={t:unix.toString(16),token:md5(unix+ss+'Dream')};function jt(t,s){var r=(new Date).setHours(0,0,0,0),e=0,n=-1,a=0;let h=t=>t.split('').reverse().join('');for(let s=0;s<t.length;s++){var o=t.charCodeAt(s);e+=o,-1!=n&&(a+=n-o),n=o}let l=(e+=a).toString(36),u=r.toString(36),i=0;for(let t=0;t<u.length;t++)i+=u.charCodeAt(t);u=u.substr(5)+u.substr(0,5);var p,c,d=Math.abs(i-e),g=(u=h(l)+u).substr(0,4),A=u.substr(4),v=new Array,m=(t=>new Date(t).getDay())(r)%2;for(let s=0;s<t.length;s++)s%2==m?v.push(u.charAt(s%u.length)):(p=t.charAt(s-1))?-1==(c=g.indexOf(p))?v.push(p):v.push(A.charAt(c)):v.push(g.charAt(s));return'https://livehhhttps.sxrtv.com/lsdream/'+t+'/'+s+'/'+(h(d.toString(36))+v.join('')).substr(0,t.length)+'.m3u8'};let data=JSON.parse(request(buildUrl('https://livehhhttps.sxrtv.com'+ss,o))).channels;VOD.vod_play_url=data.map(it=>{return it.n+'$'+jt(it.i,it.r[0].n)}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"贵州",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let gz=pdfa(request('https://www.gzstv.com/'),'body&&ul.dropdown-menu');function live(x){return pdfa(gz[x],'ul&&a').map(it=>{return pdfh(it,'a&&Text')+'$'+pd(it,'a&&href','https://www.gzstv.com')}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=live(0)+'$$$'+live(1)"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"新疆",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let t=Date.now();function xj(o){return JSON.parse(request('https://www.xjtvs.com.cn/bvradio_app/service/cms?functionName=getChannel&stationID=10'+o+'&_='+t)).map(it=>{return it.fullName+'$'+it.playUrl}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=xj(0)+'$$$'+xj(5)"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"内蒙古",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let k='5b28bae827e651b3';function nmg(o){return JSON.parse(XXTEA.decryptFromBase64(post('https://api-bt.nmtv.cn/broadcast/list',{headers:{'Content-Type':'application/json;charset=UTF-8'},body:XXTEA.encryptToBase64('{\"type\":'+o+',\"size\":100}',k)}).replaceAll('\"',''),k)).data.map(it=>{return it.title+'$'+it.data.streamUrl}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=nmg(1)+'$$$'+nmg(0)"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"吉林",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let k='5b28bae827e651b3';function jl(o){return JSON.parse(XXTEA.decryptFromBase64(request('https://clientapi.jlntv.cn/broadcast/list?page=1&size=10000&type='+o).replaceAll('\"',''),k)).data.map(it=>{return it.title+'$'+it.data.streamUrl}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=jl(1)+'$$$'+jl(0)"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"哈尔滨",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let gb={'哈广综合':'93','哈广文艺':'95','哈广交通':'97','哈广经济':'99','哈广音乐':'101','哈广古典音乐':'103'};let zb={'新闻综合频道':'81','生活频道':'85','影视频道':'87'};let host='https://www.hrbtv.net/folder';VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=Object.keys(zb).map(it=>{return it+'$'+host+'79/folder'+zb[it]}).join('#')+'$$$'+Object.keys(gb).map(it=>{return it+'$'+host+'91/folder'+gb[it]}).join('#');"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"黑龙江",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let tv={'卫视频道':'hljws_own','文体频道':'hljwy_hd','影视频道':'hljys_hd','新闻法治':'hljxw_hd','都市频道':'dushi_hd','农业·科教':'hljgg_hd','少儿频道':'hljse_hd'};let radio={'新闻广播':'hljrdxw','交通广播':'hljrdjt','爱家广播':'hljrd97','都市女性广播':'hljrdnx','音乐广播':'hljrdyy','生活广播':'hljrdsh','高校广播':'hljrdgx'};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=Object.keys(tv).map(it=>{return it+'$'+'https://idclive.hljtv.com:4430/live/'+tv[it]+'.m3u8'}).join('#')+'$$$'+Object.keys(radio).map(it=>{return it+'$'+'https://stream3.hljtv.com/'+radio[it]+'/playlist.m3u8'}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"海南",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>function hn(m){return JSON.parse(request('https://www.hnntv.cn/api/channel?type='+m)).resultSet}VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=hn(1).map(it=>{return it.name+'$'+it.code+`>>input=JSON.parse(request('https://ps.hnntv.cn/ps/livePlayUrl?channelCode='+code)).resultSet[0].url<<`}).join('#')+'$$$'+hn(2).map(it=>{return it.name+'$'+it.code+`>>input=JSON.parse(request('https://ps.hnntv.cn/ps/livePlayUrl?channelCode='+code)).resultSet[0].url<<`}).join('#');"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"重庆",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let cq=JSON.parse(request('https://rmtapi.cbg.cn/list/4918/1.html?pagesize=20')).data.lists;VOD.vod_play_url=cq.map(it=>{return it.title+'$'+it.android_url+`>>input=JSON.parse(request('https://web.cbg.cn/live/getLiveUrl?url='+code)).data.url<<`}).join('#')"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"甘肃",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let gs=pdfa(request('https://www.gstv.com.cn/zxc.jhtml'),'body&&ul.channelContent');function live(x){return pdfa(gs[x],'ul&&a').map(it=>{return pdfh(it,'a&&Text')+'$'+pdfh(it,'a&&data-url')}).join('#')};VOD.vod_play_from='电视$$$广播';VOD.vod_play_url=live(0)+'$$$'+live(1)"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"福建",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let fj={'综合频道':'4','东南卫视':'5','公共频道':'6','新闻频道':'13','电视剧频道':'7','旅游频道':'8','经视频道':'9','文体频道':'10','少儿频道':'2','海峡卫视':'3'};VOD.vod_play_url=Object.keys(fj).map(it=>{return it+'$'+fj[it]+`>>input=JSON.parse(request('https://live.fjtv.net/m2o/channel/channel_info.php?channel_id='+code))[0].m3u8<<`}).join('#')"],
+            "简介":[""]                       
+            }
+        ],
+        "2":[
+            {
+            "标题":"随机福利@20:00-8:00",
+            "封面":["http://api.yujn.cn/api/sese.php?REFRESH=true"],
+            "播放":["$movie@./data/x.json"],
+            "时段":"20:00-8:00",
+            "定时":"10:00-11:00"
+            },
+            {
+            "标题":"周星驰",
+            "封面":["https://i02piccdn.sogoucdn.com/3699529b2b76b884"],
+            "播放":["$movie@./data/电影.txt@周星驰"],
+            "简介":[""]
+            },
+            {
+            "标题":"林正英",
+            "封面":["https://i04piccdn.sogoucdn.com/9932d8e11cf51f5d"],
+            "播放":["$movie@./data/电影.txt@林正英"],
+            "简介":[""]                       
+            }, 
+              {
+            "标题":"西游记",
+            "封面":["https://i04piccdn.sogoucdn.com/9932d8e11cf51f5d"],
+            "播放":["$all@./data/电影.txt@林正英,周星驰"],
+            "简介":[""]                       
+            },        
+            {
+            "标题":"四大名著",
+            "封面":["https://i03piccdn.sogoucdn.com/7d1e74c3b15a9797"],
+            "播放":["$all@./data/电视剧.txt@西游记,水浒传,三国演义,红楼梦"],
+            "简介":[""]
+            },
+            {
+            "标题":"猫和老鼠",
+            "封面":["$search@猫和老鼠"],
+            "播放":["$movie@./data/动画片.json@猫和老鼠"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"哆啦A梦",
+            "封面":["$search@哆啦A梦"],
+            "播放":["$movie@./data/动画片.json@哆啦A梦"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"随机动画电影",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["动画电影$cms@https://api.1080zyku.com@/inc/api_mac10.php@t=41"]       
+            },
+            {
+            "标题":"喜人奇妙夜",
+            "封面":["https://i02piccdn.sogoucdn.com/b53dbd5970d9680f"],
+            "播放":["20240628纯享版$https://v.lzcdn23.com/20240628/1549_fa6a0451/index.m3u8#20240705纯享版$https://v.lzcdn23.com/20240705/2065_135ef506/index.m3u8#20240712纯享版$https://v.cdnlz18.com/20240712/14075_96a62a9d/index.m3u8#20240719纯享版$https://v.cdnlz18.com/20240719/14582_6f498438/index.m3u8#20240726舞台纯享版$https://v.cdnlz18.com/20240726/14800_f9d28191/index.m3u8#20240802纯享版$https://v.cdnlz18.com/20240802/15214_3a34ba83/index.m3u8#20240816纯享版$https://v.cdnlz18.com/share/3aca6cc84657b8d0b2f42c3821ce0ba6#20240823纯享版$https://v.cdnlz18.com/20240823/15801_185314db/index.m3u8#20240830纯享版$https://v.cdnlz18.com/20240830/16142_c0a2b07d/index.m3u8#20240906纯享版$https://v.cdnlz18.com/20240906/16503_3b488dc3/index.m3u8#作品主题回顾特辑：古装传奇$https://v.cdnlz18.com/20240920/17191_c4b11235/index.m3u8#作品主题回顾特辑：浪漫爱情$https://v.cdnlz18.com/20240920/17190_1b7779c1/index.m3u8#作品主题回顾特辑：青春校园$https://v.cdnlz18.com/20240920/17189_8df07108/index.m3u8#作品主题回顾特辑：知己友谊$https://v.cdnlz18.com/20240920/17192_2605ee21/index.m3u8#作品主题回顾特辑：职场故事$https://v.cdnlz18.com/20240920/17188_9c5424d4/index.m3u8"],
+            "简介":[""]
+            },
+            {
+            "标题":"虎牙一起看",
+            "封面":["https://i02piccdn.sogoucdn.com/d4c4af45946e4b6c"],
+            "播放":["$all@http://127.0.0.1:35456/huyayqk.m3u?url=http://127.0.0.1:35456;{parse:0,url:code}@一起看,原创"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"斗鱼一起看",
+            "封面":["https://i04piccdn.sogoucdn.com/f7a66984528e1bf6"],
+            "播放":["$all@http://127.0.0.1:35456/douyuyqk.m3u?url=http://127.0.0.1:35456;{parse:0,url:code}@一起看,原创IP"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"YY综合",
+            "封面":["https://i03piccdn.sogoucdn.com/a6fe98ca9180886f"],
+            "播放":["$all@http://127.0.0.1:35456/yylunbo.m3u?url=http://127.0.0.1:35456;{parse:0,url:code}@zonghe"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"抖音视频",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["https://v.douyin.com/ikpvuBjK"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"哔哩视频",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$bili@BV1EwmbBhEkR"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"新闻联播",
+            "封面":["https://i03piccdn.sogoucdn.com/bd836705b1d3fe56"],
+            "播放":["$cctv@TOPC1451528971114112@1"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"人与自然",
+            "封面":["https://i01piccdn.sogoucdn.com/7cf4142be284a368"],
+            "播放":["$cctv@TOPC1451525103989666"],
+            "简介":[""]                       
+            }
+        ],
+        "3":[
+            {
+            "标题":"风云4B-云图",
+            "封面":["$js@=>let html=request('http://www.nmc.cn/publish/satellite/fy4b-visible.htm');desc=pdfh(html,'.time:eq(0)&&Text');input=pdfh(html,'.time:eq(0)&&data-img')"],
+            "播放":["Not_Video"],
+            "简介":["$js@=>let data=JSON.parse(request('https://xiaoapi.cn/API/zs_tq.php?type=cytq&msg=%E5%AD%9F%E5%B7%9E&num=20&n=1')).data;input=data.replaceAll('n','\\n');VOD.vod_play_url='语音播报$'+JSON.parse(request('https://xiaoapi.cn/API/tts.php?msg='+input)).data.mp3"]
+            },
+            {
+            "标题":"随机网易云@音乐",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let json=JSON.parse(request('https://api.vvhan.com/api/wyMusic/'+getRandomItem(['热歌榜','新歌榜','飙升榜','原创榜'])+'?type=json'));VOD={vod_year:json.info.update_time,vod_pic: json.info.pic_url,vod_actor:json.info.auther,vod_play_from: json.sort,vod_play_url:json.info.name+'$'+json.info.url}"],
+            "简介":[""]
+            },
+            {
+            "标题":"有来医生@短视频",
+            "封面":["https://img.phb123.com/uploads/allimg/220815/810-220Q51423060-L.png"],
+            "播放":["有来医生$https://m.youlai.cn/webapp/home?tab=video"],
+            "简介":[""]
+            },
+            {
+            "标题":"摸鱼日报",
+            "封面":["https://api.52vmy.cn/api/wl/moyu"],
+            "播放":["Not_Video"],
+            "简介":[""]
+            },
+            {
+            "标题":"历史上的今天",
+            "封面":["https://xiaoapi.cn/API/lssdjt_pic.php"],
+            "播放":["Not_Video"],
+            "简介":[""]
+            },
+            {
+            "标题":"看图猜成语",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let data=JSON.parse(request('https://xiaoapi.cn/API/game_ktccy.php?msg=开始游戏&id=1828222534')).data;VOD.vod_pic=data.pic;VOD.vod_content='<br><br>答案：'+data.answer;VOD.vod_play_url=NO_VIDEO"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"随机视频",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["http://api.yujn.cn/api/zzxjj.php?type=video"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"原来是这样@播客",
+            "封面":["https://fdfs.xmcdn.com/storages/52a5-audiofreehighqps/FA/DC/CMCoOSEENJO4AAFD0ACXT94J.jpg"],
+            "播放":["$podcast@https://data.getpodcast.xyz/data/ximalaya/246622.xml"],
+            "简介":[""]
+            },
+            {
+            "标题":"西游记@河南广播",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let id={'第1季':'1263324809090174976','第2季':'1263324886244397056','第3季':'1263325024039866368','第4季':'1263325075067768832','第5季':'1263325132257103872'};let x=y=>{return JSON.parse(request('https://hngbwpubmod.hndt.com/mobile/cms/articles?tenantId=henanradio&channelId='+y+'&pageNo=1&pageSize=100')).result.content.map(it=>{return it.title+'$'+it.articleAttachmentsList[0].url}).join('#')};VOD.vod_play_from=Object.keys(id).join('$$$');VOD.vod_play_url=Object.keys(id).map(it=>{return x(id[it])}).join('$$$');"],
+            "简介":[""]                       
+            },
+            {
+            "标题":"河南广播",
+            "封面":["http://api.yujn.cn/api/dmfj.php?REFRESH=true"],
+            "播放":["$js@=>let id={'河南电台':'1','国家电台':'5','网络电台':'2','地方电台':'3'};let t=getUnix();function x(y){return JSON.parse(request('https://pubmod.hntv.tv/program/getAuth/live/class/program/'+y,{headers:{ timestamp:t,sign:sha256('6ca114a836ac7d73'+t)}})).map(it=>{return it.name+'$'+it.streams[0]}).join('#')};VOD.vod_play_from=Object.keys(id).join('$$$');VOD.vod_play_url=Object.keys(id).map(it=>{return x(id[it])}).join('$$$');"],
+            "简介":[""]                       
+            }
+        ]
+    }
+}

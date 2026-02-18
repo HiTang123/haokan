@@ -1,0 +1,36 @@
+{
+  "vodPic": "https://mirror.ghproxy.com/raw.githubusercontent.com/HiTang123/xyz/master/live/img/icon/文件夹.png",
+  "drives": [
+  {
+    "name": "🌈小雅",
+    "server": "http://124.70.208.192:5678/",
+    "hidden": false,
+    "search": true
+  },{
+    "name": "📺ecve",
+    "server": "https://pan.ecve.cn",
+    "hidden": false,
+    "search": true
+  },{
+    "name": "📺mediy",
+    "server": "https://pan.mediy.cn/",
+    "hidden": false,
+    "search": true
+  },{
+      "name": "示例",
+      "server": "https://one.fongmi.com",
+      "search": true,
+      "hidden": false,
+      "login": {
+        "username": "fongmi",
+        "password": "fongmi"
+      },
+      "params": [
+        {
+          "path": "/安齋拉拉",
+          "pass": "18181818"
+        }
+      ]
+    }
+  ]
+}

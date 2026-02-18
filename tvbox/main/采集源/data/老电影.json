@@ -1,0 +1,11 @@
+{
+    "name":["打仗片","武侠片"],
+    "打仗片":[
+       "举起手来1$https://s1.bfzycdn.com/video/juqishoulai/HD国语/index.m3u8",
+       "举起手来2$https://s1.bfzycdn.com/video/juqishoulai2zhuijiaduowanhao/HD国语/index.m3u8"
+        ],
+    "武侠片":[
+        "少林寺$https://vip.ffzy-play6.com/20221128/8988_cfde6cf0/index.m3u8",
+        "武当$https://s2.bfzycdn.com/video/wudang/HD国语/index.m3u8"
+        ]
+}
