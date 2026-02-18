@@ -1,7 +1,7 @@
 {
     "spider":"./spider.jar",
     "wallpaper":"https://深色壁纸.xxooo.cf/",
-    "logo":"./tvbox/live/img/icon/6941612717007.gif"",
+    "logo":"./tvbox/live/img/icon/6941612717007.gif",
     "lives":[
     {"name":"IPV4","type":0,"url":"./live.txt"}
 
