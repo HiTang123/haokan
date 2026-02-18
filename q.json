@@ -10,7 +10,8 @@
         {"key":"哔哩","name":"哔哩哔哩","type":3,"api":"./js/bili.js","changeable":0,"playerType":2,"recordable":0},
         {"key":"梨园行","name":"梨园行","type":3,"api":"./lib/drpy2.min.js","ext":"./js/梨园行.js","style":{"type":"rect"}},
 		{"key":"七彩戏剧","name":"七彩戏剧","type":3,"api":"./lib/drpy2.min.js","ext":"./tvbox/js/app/七彩戏剧.js","style":{"type":"rect"}},
-        {"key":"随心看","name":"🌈好看","type":3,"api":"./lib/drpy2.min.js","ext":"./js/随心看.js?type=url&params=./o.json"}
+        {"key":"随心看","name":"🌈好看","type":3,"api":"./lib/drpy2.min.js","ext":"./js/随心看.js?type=url&params=./o.json"},
+		{"key":"腾讯视频","name":"腾讯视频","type":3,"api":"./lib/drpy2.min.js","ext":"./tvbox/js/官/腾讯视频.js"}
     ],
     "parses":[
 {"name":"虾米","type":0,"url":"https://jx.hls.one/?url="},
