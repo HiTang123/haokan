@@ -341,12 +341,6 @@ TVB西游记,https://live.ottiptv.cc/huya/23728660
 中华小当家,https://live.ottiptv.cc/huya/11342413
 
 
-游戏直播,#genre#
-32分钟(每晚19点直播，周三休息),http://127.0.0.1:35456/douyin/839009024810
-圆圆子(早上9-11点，晚上7-10点),http://127.0.0.1:35456/douyin/979684642270
-不求人(每晚18点),http://127.0.0.1:35456/douyin/933572413882
-听泉赏宝(每晚21:30),http://127.0.0.1:35456/douyin/163823390463
-
 少儿频道,#genre#
 动漫秀场,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221226608/1.m3u8
 嘉佳卡通,http://iptv.cdn.ha.chinamobile.com:80/PLTV/88888888/224/3221227208/1.m3u8
