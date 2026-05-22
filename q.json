@@ -29,8 +29,16 @@
         "mozai.4gtv.tv"
     ],
     "lives": [
+		{
+            "name": "联通",
+            "type": 0,
+            "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+            "playerType": 2,
+            "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
         {
-            "name": "iptv",
+            "name": "移动",
             "type": 0,
             "url": "./live.txt",
             "timeout": 10
